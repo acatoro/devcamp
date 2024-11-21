@@ -1,0 +1,23 @@
+footer {   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: -5px;
+}
+footer > .footer-link {
+    border-top: solid 1px white;
+    border-right: solid 1px white;
+    border-bottom: solid 1px white;
+    background-color: gray;
+    padding: 15px;
+    text-align: center;
+}
+footer > .footer-link a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 900;
+}
+footer > .footer-link span {
+    font-weight: 1000;
+    font-size: 1.4em;
+}

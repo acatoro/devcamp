@@ -1,0 +1,51 @@
+@media screen and (max-width: 1024px) {
+    header {
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .column-left, .column-center, .column-right {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .column-left img {
+        width: 100px;
+        height: auto;
+    }
+    .column-center {
+        align-items: center;
+    }
+    .column-right > .square a,
+    .column-right > .create {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+    section {
+        flex-wrap: wrap;
+    }
+    section > .section-left, 
+    section > .section-right {
+        width: 100%;
+        margin: 10px 0;
+    }
+    section > .section-right img {
+        height: auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    footer {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 10px;
+    }
+    .column-left img {
+        width: 80px;
+    }
+    .column-center > .down > .down-navs a,
+    .column-center > .down > .down-spark a {
+        font-size: 1em;
+    }
+    section > .section-left .buttons > .button1,
+    section > .section-left .buttons > .button2 {
+        font-size: 1.5em;
+        padding: 8px 15px;
+    }
+}

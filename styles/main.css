@@ -1,0 +1,87 @@
+.column-left {
+    width: 15%;
+    margin-left: 20px;
+}
+.column-left img {
+    width: 150px;
+    height: 50%;
+}
+.column-center {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-left: 0;
+}
+.column-center a {
+    text-decoration: none;
+}
+.column-center > .up {
+    font-weight: 700;
+    color: yellow;
+}
+.column-center > .down {
+    display: flex;
+    align-items: center;
+}
+.column-center > .down > .down-navs {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.column-center > .down > .down-navs a {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: 25px;
+}
+.column-center > .down > .down-spark {
+    display: flex;
+    justify-content: space-between;
+}
+.column-center > .down > .down-spark a {
+    color: grey;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+.column-center > .down > .down-spark i {
+    height: 00px;
+    color: grey;
+    margin-left: 10px;
+}
+.column-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+}
+.column-right > .square a {
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    border: solid 1px grey;
+    border-radius: 2px;
+    background-color: grey;
+    padding: 15px 20px;
+}
+.column-right > .create {
+    border: solid 1px grey;
+    border-radius: 2px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.column-right > .create a {
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    margin-right: 10px;
+} 
+.column-right > .create i {
+    color: lightgreen;
+}
+.column-right i {
+    color: grey;
+    font-size: 1.5em;
+}
